@@ -91,6 +91,28 @@
       cursor: pointer;
       box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
     }
+    .button-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-box__button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
     .achievements {
       display: flex;
@@ -202,7 +224,7 @@
 
 <body>
   <header class="header">
-    <a href="#" class="logo">Team's Projects Demo</a>
+    <a href="#" class="logo">Team's Project Demo</a>
     <nav class="nav-items">
       <a href="#">Home</a>
       <a href="#">About</a>
@@ -215,6 +237,22 @@
       <p>We Learn and Grow</p>
       <button>Learn More</button>
     </div>
+
+    <h2 style="color: rgb(36, 36, 34);", align="center"> 
+      Team Members
+      </h2>
+
+
+    <div class="button-box">
+      <button class="button-box__button">Apoorva Tiwari</button>
+      <button class="button-box__button">Anuj Kumar Yadav</button>
+      <button class="button-box__button">Ashish Sharma</button>
+      <button class="button-box__button">Gourav Kumar Chejara</button>
+      <button class="button-box__button">Manthan Sisodiya</button>
+      <button class="button-box__button">Amrish Kumar</button>
+    </div>
+
+
     <div class="achievements">
       <div class="work">
         <i class="fas fa-atom"></i>
