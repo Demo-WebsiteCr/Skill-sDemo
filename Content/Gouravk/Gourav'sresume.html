@@ -12,17 +12,78 @@
             color: #333;
             margin: 0;
             padding: 0;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
         }
         .container {
             max-width: 960px;
             margin: 20px auto;
             padding: 0 20px;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
         }
         h1, h2, h3 {
             margin: 10px 0;
         }
         p {
             margin: 5px 0;
+        }
+
+        /* Animation for sliding in from the left */
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Animation for sliding in from the right */
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Animation for sliding in from the top */
+        @keyframes slideInTop {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation for sliding in from the bottom */
+        @keyframes slideInBottom {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        /* Apply animations to sections */
+        section:nth-child(odd) {
+            animation: slideInLeft 1s ease forwards;
+        }
+
+        section:nth-child(even) {
+            animation: slideInRight 1s ease forwards;
+        }
+
+        /* Apply animation to the header */
+        header {
+            animation: slideInTop 1s ease forwards;
+        }
+
+        /* Apply animation to the footer */
+        footer {
+            animation: slideInBottom 1s ease forwards;
         }
     </style>
 </head>
@@ -70,6 +131,9 @@
             <p>Sunstone</p>
             <p>y2023-y2027</p>
         </section>
+        <footer>
+            <!-- You can add footer content here -->
+        </footer>
     </div>
 </body>
 </html>
