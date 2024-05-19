@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourav's - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrollbar */
+        }
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+
+        /* Animation for sliding in from the left */
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Animation for sliding in from the right */
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        /* Animation for sliding in from the top */
+        @keyframes slideInTop {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation for sliding in from the bottom */
+        @keyframes slideInBottom {
+            from {
+                transform: translateY(100%);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+
+        /* Apply animations to sections */
+        section:nth-child(odd) {
+            animation: slideInLeft 1s ease forwards;
+        }
+
+        section:nth-child(even) {
+            animation: slideInRight 1s ease forwards;
+        }
+
+        /* Apply animation to the header */
+        header {
+            animation: slideInTop 1s ease forwards;
+        }
+
+        /* Apply animation to the footer */
+        footer {
+            animation: slideInBottom 1s ease forwards;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gourav Kumar Chejara</h1>
+            <p>Computer Science Engineering </p>
+            <p>Email: 23TEC2CS802@vgu.ac.in</p>
+            <p>Phone: 8829091891</p>
+        </header>
+        <hr>
+        <section>
+            <h2>About</h2>
+            <p>A highly enthusiastic and motivated computer science student learning different courses and certificates in the computer language</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML CSS JavaScript</li>
+                <li>Git & GitOps</li>
+                <li>Excel</li>
+                <li>C</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>Education</h2>
+            <h3>Class 12 CBSE board</h3>
+            <p>Adarsh Vidya Mandir</p>
+            <p>In year 2022-2023</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Education</h2>
+            <h3>Class 10 CBSE Board </h3>
+            <p>Adarsh Vidya Mandir</p>
+            <p>In year 2021-2022</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <h3>BTECH In Computer Science</h3>
+            <p>Vivekananda Global University</p>
+            <p>Sunstone</p>
+            <p>y2023-y2027</p>
+        </section>
+        <footer>
+            <!-- You can add footer content here -->
+        </footer>
+    </div>
+</body>
+</html>
