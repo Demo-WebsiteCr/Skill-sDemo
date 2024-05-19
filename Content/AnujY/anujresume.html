@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj Kumar Yadav - Professional Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .no-underline {
+            text-decoration: none;
+            color: black;
+        }
+
+        .profile-details {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: zoomIn 1s ease-out;
+        }
+
+        @keyframes zoomIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .profile-details h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .profile-details p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .profile-details ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+
+        .profile-details li {
+            margin-bottom: 5px;
+        }
+
+        .profile-details li:before {
+            content: "➤ ";
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anuj Kumar Yadav</h1>
+        <p>Computer Science Engineer</p>
+    </header>
+    <section class="profile-details">
+        <h2>Personal Details</h2>
+        <p><strong>Father's Name:</strong> Devdhari Yadav</p>
+        <p><strong>Mother's Name:</strong> Dulari Devi</p>
+
+        <h2>Education</h2>
+        <p><strong>Secondary Education:</strong> From CBSE Board with 76%</p>
+        <p><strong>Intermediate Education:</strong> From JAC (Jharkhand Board) with 77.2%</p>
+        <p><strong>Current Education:</strong> Pursuing B.Tech in Computer Science Engineering from VGU Jaipur</p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>BASIC language</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Watching movies and reels</li>
+            <li>Reading newspapers</li>
+            <li>Walking</li>
+        </ul>
+    </section>
+</body>
+</html>
