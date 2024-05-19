@@ -1,0 +1,45 @@
+<div id="header"></div>
+<div class="left"></div>
+<div class="stuff">
+  <br><br>
+  <h1>Resume</h1>
+  <h2>ASHISH SHARMA</h2>
+  <h3>e-mail=ashishsharma070704@gmail.com</h3>
+  <h4>ph. no.-8441056586</h4>
+  <hr />
+  <br>
+  <p class="head">Interests</p>
+  <ul>
+    <li>Computer Science</li>
+    <li>Programming</li>
+    <li>Guitar And Piano</li>
+    <li>Photography</li>
+    <li>Sketching</li>
+    <li>Movies</li>
+  </ul>
+  <p class="head">Skills</p>
+  <ul>
+    <li>Web Design with HTML & CSS</li>
+  </ul>
+  <p class="head">Education</p>
+  <ul>
+    <a href="https://stjosephacademy.co.in/">
+      <li>St. Joseph Academy</li>
+    </a>
+    <!--Link-->
+    <li>Vivekananda Global University</li>
+  </ul>
+  <p class="head">Summary</p>
+  <ul>
+    <li>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</li>
+  </ul>
+  <p class="head">Extracurriculars</p>
+  <ul>
+    <li>Designing</li>
+    <li>Videography</li>
+    <li>Sports</li>
+  </ul>
+</div>
+<div class="right"></div>
+<div id="footer">
+  <h2 id="name">Ashish</h2></div>
